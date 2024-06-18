@@ -1,0 +1,50 @@
+/myapp
+    /app
+        __init__.py
+        main.py
+        /routers
+            __init__.py
+            users.py
+            items.py
+        /models
+            __init__.py
+            users.py
+            items.py
+        /schemas
+            __init__.py
+            users.py
+            items.py
+    /tests
+        test_main.py
+        test_routers.py
+    Dockerfile
+    requirements.txt
+    .env
+
+myapp: The root directory of your application.
+
+app: This directory contains your FastAPI application.
+
+main.py: This is the entry point of your FastAPI application.
+
+routers: This directory contains all your route definitions.
+
+models: This directory contains your Pydantic models or database models.
+
+schemas: This directory contains your Pydantic schemas which are used for data validation and serialization.
+
+tests: This directory contains all your test cases.
+
+Dockerfile: This file is used to build a Docker image for your application.
+
+requirements.txt: This file lists all of the Python packages that your app depends on.
+
+.env: This file is used to store environment variables.
+
+cd alchemy-api
+mkdir -p app/routers app/models app/schemas tests
+touch app/__init__.py app/main.py app/routers/__init__.py app/routers/users.py app/routers/items.py
+touch app/models/__init__.py app/models/users.py app/models/items.py
+touch app/schemas/__init__.py app/schemas/users.py app/schemas/items.py
+touch tests/test_main.py tests/test_routers.py
+touch Dockerfile requirements.txt .env
