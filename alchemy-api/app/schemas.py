@@ -1,26 +1,15 @@
-from pydantic import BaseModel
-import datetime
-class UserCreate(BaseModel):
-    username: str
-    email: str
-    password: str
+import uuid
 
-class requestdetails(BaseModel):
-    email:str
-    password:str
-        
-class TokenSchema(BaseModel):
-    access_token: str
-    refresh_token: str
+from fastapi_users import schemas
 
-class changepassword(BaseModel):
-    email:str
-    old_password:str
-    new_password:str
 
-class TokenCreate(BaseModel):
-    user_id:str
-    access_token:str
-    refresh_token:str
-    status:bool
-    created_date:datetime.datetime
+class UserRead(schemas.BaseUser[uuid.UUID]):
+    pass
+
+
+class UserCreate(schemas.BaseUserCreate):
+    pass
+
+
+class UserUpdate(schemas.BaseUserUpdate):
+    pass

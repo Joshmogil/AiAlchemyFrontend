@@ -1,72 +1,94 @@
 [
     {
-        "label": "jwt",
-        "kind": 6,
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "importPath": "jwt",
-        "description": "jwt",
-        "detail": "jwt",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "jwt.exceptions",
-        "kind": 6,
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "importPath": "jwt.exceptions",
-        "description": "jwt.exceptions",
-        "detail": "jwt.exceptions",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "InvalidTokenError",
-        "importPath": "jwt.exceptions",
-        "description": "jwt.exceptions",
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "jwt.exceptions",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
         "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Request",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -114,7 +136,7 @@
         "documentation": {}
     },
     {
-        "label": "HTTPException",
+        "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -130,7 +152,7 @@
         "documentation": {}
     },
     {
-        "label": "status",
+        "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -138,52 +160,196 @@
         "documentation": {}
     },
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "SQLAlchemyBaseUserTableUUID",
+        "importPath": "fastapi_users.db",
+        "description": "fastapi_users.db",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "fastapi_users.db",
         "documentation": {}
     },
     {
-        "label": "HTTPBearer",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
+        "label": "SQLAlchemyUserDatabase",
+        "importPath": "fastapi_users.db",
+        "description": "fastapi_users.db",
         "isExtraImport": true,
-        "detail": "fastapi.security",
+        "detail": "fastapi_users.db",
         "documentation": {}
     },
     {
-        "label": "HTTPAuthorizationCredentials",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
+        "label": "SQLAlchemyUserDatabase",
+        "importPath": "fastapi_users.db",
+        "description": "fastapi_users.db",
         "isExtraImport": true,
-        "detail": "fastapi.security",
+        "detail": "fastapi_users.db",
         "documentation": {}
     },
     {
-        "label": "OAuth2PasswordBearer",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
-        "detail": "fastapi.security",
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
-        "label": "app.models",
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "app.models",
-        "description": "app.models",
-        "detail": "app.models",
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "TokenTable",
-        "importPath": "app.models",
-        "description": "app.models",
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
         "isExtraImport": true,
-        "detail": "app.models",
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "Jinja2Templates",
+        "importPath": "fastapi.templating",
+        "description": "fastapi.templating",
+        "isExtraImport": true,
+        "detail": "fastapi.templating",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "create_db_and_tables",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_db",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserRead",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "auth_backend",
+        "importPath": "app.users",
+        "description": "app.users",
+        "isExtraImport": true,
+        "detail": "app.users",
+        "documentation": {}
+    },
+    {
+        "label": "current_active_user",
+        "importPath": "app.users",
+        "description": "app.users",
+        "isExtraImport": true,
+        "detail": "app.users",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_users",
+        "importPath": "app.users",
+        "description": "app.users",
+        "isExtraImport": true,
+        "detail": "app.users",
         "documentation": {}
     },
     {
@@ -227,375 +393,59 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "app.models",
-        "description": "app.models",
+        "label": "schemas",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
         "isExtraImport": true,
-        "detail": "app.models",
+        "detail": "fastapi_users",
         "documentation": {}
     },
     {
-        "label": "TokenTable",
-        "importPath": "app.models",
-        "description": "app.models",
+        "label": "BaseUserManager",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
         "isExtraImport": true,
-        "detail": "app.models",
+        "detail": "fastapi_users",
         "documentation": {}
     },
     {
-        "label": "TokenTable",
-        "importPath": "app.models",
-        "description": "app.models",
+        "label": "FastAPIUsers",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
         "isExtraImport": true,
-        "detail": "app.models",
+        "detail": "fastapi_users",
         "documentation": {}
     },
     {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "UUIDIDMixin",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi_users",
         "documentation": {}
     },
     {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "AuthenticationBackend",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi_users.authentication",
         "documentation": {}
     },
     {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "BearerTransport",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi_users.authentication",
         "documentation": {}
     },
     {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "JWTStrategy",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
-        "documentation": {}
-    },
-    {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "uuid",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "uuid",
-        "description": "uuid",
-        "detail": "uuid",
-        "documentation": {}
-    },
-    {
-        "label": "HTMLResponse",
-        "importPath": "fastapi.responses",
-        "description": "fastapi.responses",
-        "isExtraImport": true,
-        "detail": "fastapi.responses",
-        "documentation": {}
-    },
-    {
-        "label": "Jinja2Templates",
-        "importPath": "fastapi.templating",
-        "description": "fastapi.templating",
-        "isExtraImport": true,
-        "detail": "fastapi.templating",
-        "documentation": {}
-    },
-    {
-        "label": "JWTBearer",
-        "importPath": "app.auth_bearer",
-        "description": "app.auth_bearer",
-        "isExtraImport": true,
-        "detail": "app.auth_bearer",
-        "documentation": {}
-    },
-    {
-        "label": "create_access_token",
-        "importPath": "app.utils",
-        "description": "app.utils",
-        "isExtraImport": true,
-        "detail": "app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "create_refresh_token",
-        "importPath": "app.utils",
-        "description": "app.utils",
-        "isExtraImport": true,
-        "detail": "app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "verify_password",
-        "importPath": "app.utils",
-        "description": "app.utils",
-        "isExtraImport": true,
-        "detail": "app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "get_hashed_password",
-        "importPath": "app.utils",
-        "description": "app.utils",
-        "isExtraImport": true,
-        "detail": "app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "token_required",
-        "importPath": "app.utils",
-        "description": "app.utils",
-        "isExtraImport": true,
-        "detail": "app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.database",
-        "description": "app.database",
-        "isExtraImport": true,
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "importPath": "app.database",
-        "description": "app.database",
-        "isExtraImport": true,
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "engine",
-        "importPath": "app.database",
-        "description": "app.database",
-        "isExtraImport": true,
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.database",
-        "description": "app.database",
-        "isExtraImport": true,
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "app.schemas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "app.schemas",
-        "description": "app.schemas",
-        "detail": "app.schemas",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "datetime",
-        "description": "datetime",
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "CryptContext",
-        "importPath": "passlib.context",
-        "description": "passlib.context",
-        "isExtraImport": true,
-        "detail": "passlib.context",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "jwt",
-        "importPath": "jose",
-        "description": "jose",
-        "isExtraImport": true,
-        "detail": "jose",
-        "documentation": {}
-    },
-    {
-        "label": "wraps",
-        "importPath": "functools",
-        "description": "functools",
-        "isExtraImport": true,
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
-        "label": "JWTBearer",
-        "kind": 6,
-        "importPath": "alchemy-api.app.auth_bearer",
-        "description": "alchemy-api.app.auth_bearer",
-        "peekOfCode": "class JWTBearer(HTTPBearer):\n    def __init__(self, auto_error: bool = True):\n        super(JWTBearer, self).__init__(auto_error=auto_error)\n    async def __call__(self, request: Request):\n        credentials: HTTPAuthorizationCredentials = await super(JWTBearer, self).__call__(request)\n        if credentials:\n            if not credentials.scheme == \"Bearer\":\n                raise HTTPException(status_code=403, detail=\"Invalid authentication scheme.\")\n            if not self.verify_jwt(credentials.credentials):\n                raise HTTPException(status_code=403, detail=\"Invalid token or expired token.\")",
-        "detail": "alchemy-api.app.auth_bearer",
-        "documentation": {}
-    },
-    {
-        "label": "decodeJWT",
-        "kind": 2,
-        "importPath": "alchemy-api.app.auth_bearer",
-        "description": "alchemy-api.app.auth_bearer",
-        "peekOfCode": "def decodeJWT(jwtoken: str):\n    try:\n        # Decode and verify the token\n        payload = jwt.decode(jwtoken, JWT_SECRET_KEY, ALGORITHM)\n        return payload\n    except InvalidTokenError:\n        return None\nclass JWTBearer(HTTPBearer):\n    def __init__(self, auto_error: bool = True):\n        super(JWTBearer, self).__init__(auto_error=auto_error)",
-        "detail": "alchemy-api.app.auth_bearer",
-        "documentation": {}
-    },
-    {
-        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
-        "kind": 5,
-        "importPath": "alchemy-api.app.auth_bearer",
-        "description": "alchemy-api.app.auth_bearer",
-        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30  # 30 minutes\nREFRESH_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7 # 7 days\nALGORITHM = \"HS256\"\nJWT_SECRET_KEY = \"narscbjim@$@&^@&%^&RFghgjvbdsha\"   # should be kept secret\nJWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\ndef decodeJWT(jwtoken: str):\n    try:\n        # Decode and verify the token\n        payload = jwt.decode(jwtoken, JWT_SECRET_KEY, ALGORITHM)\n        return payload",
-        "detail": "alchemy-api.app.auth_bearer",
-        "documentation": {}
-    },
-    {
-        "label": "REFRESH_TOKEN_EXPIRE_MINUTES",
-        "kind": 5,
-        "importPath": "alchemy-api.app.auth_bearer",
-        "description": "alchemy-api.app.auth_bearer",
-        "peekOfCode": "REFRESH_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7 # 7 days\nALGORITHM = \"HS256\"\nJWT_SECRET_KEY = \"narscbjim@$@&^@&%^&RFghgjvbdsha\"   # should be kept secret\nJWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\ndef decodeJWT(jwtoken: str):\n    try:\n        # Decode and verify the token\n        payload = jwt.decode(jwtoken, JWT_SECRET_KEY, ALGORITHM)\n        return payload\n    except InvalidTokenError:",
-        "detail": "alchemy-api.app.auth_bearer",
-        "documentation": {}
-    },
-    {
-        "label": "ALGORITHM",
-        "kind": 5,
-        "importPath": "alchemy-api.app.auth_bearer",
-        "description": "alchemy-api.app.auth_bearer",
-        "peekOfCode": "ALGORITHM = \"HS256\"\nJWT_SECRET_KEY = \"narscbjim@$@&^@&%^&RFghgjvbdsha\"   # should be kept secret\nJWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\ndef decodeJWT(jwtoken: str):\n    try:\n        # Decode and verify the token\n        payload = jwt.decode(jwtoken, JWT_SECRET_KEY, ALGORITHM)\n        return payload\n    except InvalidTokenError:\n        return None",
-        "detail": "alchemy-api.app.auth_bearer",
-        "documentation": {}
-    },
-    {
-        "label": "JWT_SECRET_KEY",
-        "kind": 5,
-        "importPath": "alchemy-api.app.auth_bearer",
-        "description": "alchemy-api.app.auth_bearer",
-        "peekOfCode": "JWT_SECRET_KEY = \"narscbjim@$@&^@&%^&RFghgjvbdsha\"   # should be kept secret\nJWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\ndef decodeJWT(jwtoken: str):\n    try:\n        # Decode and verify the token\n        payload = jwt.decode(jwtoken, JWT_SECRET_KEY, ALGORITHM)\n        return payload\n    except InvalidTokenError:\n        return None\nclass JWTBearer(HTTPBearer):",
-        "detail": "alchemy-api.app.auth_bearer",
-        "documentation": {}
-    },
-    {
-        "label": "JWT_REFRESH_SECRET_KEY",
-        "kind": 5,
-        "importPath": "alchemy-api.app.auth_bearer",
-        "description": "alchemy-api.app.auth_bearer",
-        "peekOfCode": "JWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\ndef decodeJWT(jwtoken: str):\n    try:\n        # Decode and verify the token\n        payload = jwt.decode(jwtoken, JWT_SECRET_KEY, ALGORITHM)\n        return payload\n    except InvalidTokenError:\n        return None\nclass JWTBearer(HTTPBearer):\n    def __init__(self, auto_error: bool = True):",
-        "detail": "alchemy-api.app.auth_bearer",
-        "documentation": {}
-    },
-    {
-        "label": "jwt_bearer",
-        "kind": 5,
-        "importPath": "alchemy-api.app.auth_bearer",
-        "description": "alchemy-api.app.auth_bearer",
-        "peekOfCode": "jwt_bearer = JWTBearer()",
-        "detail": "alchemy-api.app.auth_bearer",
+        "detail": "fastapi_users.authentication",
         "documentation": {}
     },
     {
@@ -635,47 +485,56 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "alchemy-api.app.db",
+        "description": "alchemy-api.app.db",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass User(SQLAlchemyBaseUserTableUUID, Base):\n    pass\nengine = create_async_engine(DATABASE_URL)\nasync_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_async_session() -> AsyncGenerator[AsyncSession, None]:",
+        "detail": "alchemy-api.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "alchemy-api.app.db",
+        "description": "alchemy-api.app.db",
+        "peekOfCode": "class User(SQLAlchemyBaseUserTableUUID, Base):\n    pass\nengine = create_async_engine(DATABASE_URL)\nasync_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_async_session() -> AsyncGenerator[AsyncSession, None]:\n    async with async_session_maker() as session:\n        yield session",
+        "detail": "alchemy-api.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "alchemy-api.app.db",
+        "description": "alchemy-api.app.db",
+        "peekOfCode": "DATABASE_URL = \"sqlite+aiosqlite:///./test.db\"\nclass Base(DeclarativeBase):\n    pass\nclass User(SQLAlchemyBaseUserTableUUID, Base):\n    pass\nengine = create_async_engine(DATABASE_URL)\nasync_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)",
+        "detail": "alchemy-api.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "alchemy-api.app.db",
+        "description": "alchemy-api.app.db",
+        "peekOfCode": "engine = create_async_engine(DATABASE_URL)\nasync_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_async_session() -> AsyncGenerator[AsyncSession, None]:\n    async with async_session_maker() as session:\n        yield session\nasync def get_user_db(session: AsyncSession = Depends(get_async_session)):\n    yield SQLAlchemyUserDatabase(session, User)",
+        "detail": "alchemy-api.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "async_session_maker",
+        "kind": 5,
+        "importPath": "alchemy-api.app.db",
+        "description": "alchemy-api.app.db",
+        "peekOfCode": "async_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_async_session() -> AsyncGenerator[AsyncSession, None]:\n    async with async_session_maker() as session:\n        yield session\nasync def get_user_db(session: AsyncSession = Depends(get_async_session)):\n    yield SQLAlchemyUserDatabase(session, User)",
+        "detail": "alchemy-api.app.db",
+        "documentation": {}
+    },
+    {
         "label": "get_db",
         "kind": 2,
         "importPath": "alchemy-api.app.main",
         "description": "alchemy-api.app.main",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.post(\"/register\")\ndef register_user(user: schemas.UserCreate, session: Session = Depends(get_db)):\n    existing_user = session.query(models.User).filter_by(email=user.email).first()\n    if existing_user:",
-        "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "register_user",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def register_user(user: schemas.UserCreate, session: Session = Depends(get_db)):\n    existing_user = session.query(models.User).filter_by(email=user.email).first()\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    encrypted_password =get_hashed_password(user.password)\n    new_user = models.User(username=user.username, email=user.email, password=encrypted_password )\n    session.add(new_user)\n    session.commit()\n    session.refresh(new_user)\n    return {\"message\":\"user created successfully\"}",
-        "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def login(request: schemas.requestdetails, db: Session = Depends(get_db)):\n    user = db.query(User).filter(User.email == request.email).first()\n    if user is None:\n        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"Incorrect email\")\n    hashed_pass = user.password\n    if not verify_password(request.password, hashed_pass):\n        raise HTTPException(\n            status_code=status.HTTP_400_BAD_REQUEST,\n            detail=\"Incorrect password\"\n        )",
-        "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "getusers",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def getusers(dependencies=Depends(JWTBearer()),session: Session = Depends(get_db)):\n    user = session.query(models.User).all()\n    return user\n@app.post('/change-password')\ndef change_password(request: schemas.changepassword, db: Session = Depends(get_db)):\n    user = db.query(models.User).filter(models.User.email == request.email).first()\n    if user is None:\n        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"User not found\")\n    if not verify_password(request.old_password, user.password):\n        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"Invalid old password\")",
-        "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "change_password",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def change_password(request: schemas.changepassword, db: Session = Depends(get_db)):\n    user = db.query(models.User).filter(models.User.email == request.email).first()\n    if user is None:\n        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"User not found\")\n    if not verify_password(request.old_password, user.password):\n        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"Invalid old password\")\n    encrypted_password = get_hashed_password(request.new_password)\n    user.password = encrypted_password\n    db.commit()\n    return {\"message\": \"Password changed successfully\"}",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.get(\"/\", response_class=HTMLResponse)\ndef home(request: Request, db: Session = Depends(get_db)):\n    session_key = request.cookies.get(\"session_key\", uuid.uuid4().hex)\n    todos = get_todos(db, session_key)",
         "detail": "alchemy-api.app.main",
         "documentation": {}
     },
@@ -711,7 +570,7 @@
         "kind": 2,
         "importPath": "alchemy-api.app.main",
         "description": "alchemy-api.app.main",
-        "peekOfCode": "def put_edit(request: Request, item_id: int, content: str = Form(...), db: Session = Depends(get_db)):\n    todo = update_todo(db, item_id, content)\n    context = {\"request\": request, \"todo\": todo}\n    return templates.TemplateResponse(\"todo/item.html\", context)\n@app.delete(\"/delete/{item_id}\", response_class=Response)\ndef delete(item_id: int, db: Session = Depends(get_db)):\n    delete_todo(db, item_id)",
+        "peekOfCode": "def put_edit(request: Request, item_id: int, content: str = Form(...), db: Session = Depends(get_db)):\n    todo = update_todo(db, item_id, content)\n    context = {\"request\": request, \"todo\": todo}\n    return templates.TemplateResponse(\"todo/item.html\", context)\n@app.delete(\"/delete/{item_id}\", response_class=Response)\ndef delete(item_id: int, db: Session = Depends(get_db)):\n    delete_todo(db, item_id)\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"app.app:app\", host=\"0.0.0.0\", log_level=\"info\")",
         "detail": "alchemy-api.app.main",
         "documentation": {}
     },
@@ -720,7 +579,7 @@
         "kind": 2,
         "importPath": "alchemy-api.app.main",
         "description": "alchemy-api.app.main",
-        "peekOfCode": "def delete(item_id: int, db: Session = Depends(get_db)):\n    delete_todo(db, item_id)",
+        "peekOfCode": "def delete(item_id: int, db: Session = Depends(get_db)):\n    delete_todo(db, item_id)\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"app.app:app\", host=\"0.0.0.0\", log_level=\"info\")",
         "detail": "alchemy-api.app.main",
         "documentation": {}
     },
@@ -729,7 +588,7 @@
         "kind": 5,
         "importPath": "alchemy-api.app.main",
         "description": "alchemy-api.app.main",
-        "peekOfCode": "app = FastAPI()\ntemplates = Jinja2Templates(directory=\"templates\")\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.post(\"/register\")\ndef register_user(user: schemas.UserCreate, session: Session = Depends(get_db)):",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan)\ntemplates = Jinja2Templates(directory=\"templates\")\napp.include_router(\n    fastapi_users.get_auth_router(auth_backend), prefix=\"/auth/jwt\", tags=[\"auth\"]\n)\napp.include_router(\n    fastapi_users.get_register_router(UserRead, UserCreate),\n    prefix=\"/auth\",\n    tags=[\"auth\"],\n)",
         "detail": "alchemy-api.app.main",
         "documentation": {}
     },
@@ -738,7 +597,7 @@
         "kind": 5,
         "importPath": "alchemy-api.app.main",
         "description": "alchemy-api.app.main",
-        "peekOfCode": "templates = Jinja2Templates(directory=\"templates\")\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.post(\"/register\")\ndef register_user(user: schemas.UserCreate, session: Session = Depends(get_db)):\n    existing_user = session.query(models.User).filter_by(email=user.email).first()",
+        "peekOfCode": "templates = Jinja2Templates(directory=\"templates\")\napp.include_router(\n    fastapi_users.get_auth_router(auth_backend), prefix=\"/auth/jwt\", tags=[\"auth\"]\n)\napp.include_router(\n    fastapi_users.get_register_router(UserRead, UserCreate),\n    prefix=\"/auth\",\n    tags=[\"auth\"],\n)\napp.include_router(",
         "detail": "alchemy-api.app.main",
         "documentation": {}
     },
@@ -747,25 +606,7 @@
         "kind": 6,
         "importPath": "alchemy-api.app.models",
         "description": "alchemy-api.app.models",
-        "peekOfCode": "class ToDo(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    content = Column(String)\n    session_key = Column(String)\nclass User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True)\n    username = Column(String(50))\n    email = Column(String(100), unique=True, nullable=False)",
-        "detail": "alchemy-api.app.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "kind": 6,
-        "importPath": "alchemy-api.app.models",
-        "description": "alchemy-api.app.models",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True)\n    username = Column(String(50))\n    email = Column(String(100), unique=True, nullable=False)\n    password = Column(String(100), nullable=False)\nclass TokenTable(Base):\n    __tablename__ = \"token\"\n    user_id = Column(Integer)\n    access_toke = Column(String(450), primary_key=True)",
-        "detail": "alchemy-api.app.models",
-        "documentation": {}
-    },
-    {
-        "label": "TokenTable",
-        "kind": 6,
-        "importPath": "alchemy-api.app.models",
-        "description": "alchemy-api.app.models",
-        "peekOfCode": "class TokenTable(Base):\n    __tablename__ = \"token\"\n    user_id = Column(Integer)\n    access_toke = Column(String(450), primary_key=True)\n    refresh_toke = Column(String(450),nullable=False)\n    status = Column(Boolean)\n    created_date = Column(DateTime, default=datetime.datetime.now)\ndef create_todo(db: Session, content: str, session_key: str):\n    todo = ToDo(content=content, session_key=session_key)\n    db.add(todo)",
+        "peekOfCode": "class ToDo(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    content = Column(String)\n    session_key = Column(String)\ndef create_todo(db: Session, content: str, session_key: str):\n    todo = ToDo(content=content, session_key=session_key)\n    db.add(todo)\n    db.commit()\n    db.refresh(todo)",
         "detail": "alchemy-api.app.models",
         "documentation": {}
     },
@@ -815,147 +656,93 @@
         "documentation": {}
     },
     {
+        "label": "UserRead",
+        "kind": 6,
+        "importPath": "alchemy-api.app.schemas",
+        "description": "alchemy-api.app.schemas",
+        "peekOfCode": "class UserRead(schemas.BaseUser[uuid.UUID]):\n    pass\nclass UserCreate(schemas.BaseUserCreate):\n    pass\nclass UserUpdate(schemas.BaseUserUpdate):\n    pass",
+        "detail": "alchemy-api.app.schemas",
+        "documentation": {}
+    },
+    {
         "label": "UserCreate",
         "kind": 6,
         "importPath": "alchemy-api.app.schemas",
         "description": "alchemy-api.app.schemas",
-        "peekOfCode": "class UserCreate(BaseModel):\n    username: str\n    email: str\n    password: str\nclass requestdetails(BaseModel):\n    email:str\n    password:str\nclass TokenSchema(BaseModel):\n    access_token: str\n    refresh_token: str",
+        "peekOfCode": "class UserCreate(schemas.BaseUserCreate):\n    pass\nclass UserUpdate(schemas.BaseUserUpdate):\n    pass",
         "detail": "alchemy-api.app.schemas",
         "documentation": {}
     },
     {
-        "label": "requestdetails",
+        "label": "UserUpdate",
         "kind": 6,
         "importPath": "alchemy-api.app.schemas",
         "description": "alchemy-api.app.schemas",
-        "peekOfCode": "class requestdetails(BaseModel):\n    email:str\n    password:str\nclass TokenSchema(BaseModel):\n    access_token: str\n    refresh_token: str\nclass changepassword(BaseModel):\n    email:str\n    old_password:str\n    new_password:str",
+        "peekOfCode": "class UserUpdate(schemas.BaseUserUpdate):\n    pass",
         "detail": "alchemy-api.app.schemas",
         "documentation": {}
     },
     {
-        "label": "TokenSchema",
+        "label": "UserManager",
         "kind": 6,
-        "importPath": "alchemy-api.app.schemas",
-        "description": "alchemy-api.app.schemas",
-        "peekOfCode": "class TokenSchema(BaseModel):\n    access_token: str\n    refresh_token: str\nclass changepassword(BaseModel):\n    email:str\n    old_password:str\n    new_password:str\nclass TokenCreate(BaseModel):\n    user_id:str\n    access_token:str",
-        "detail": "alchemy-api.app.schemas",
+        "importPath": "alchemy-api.app.users",
+        "description": "alchemy-api.app.users",
+        "peekOfCode": "class UserManager(UUIDIDMixin, BaseUserManager[User, uuid.UUID]):\n    reset_password_token_secret = SECRET\n    verification_token_secret = SECRET\n    async def on_after_register(self, user: User, request: Optional[Request] = None):\n        print(f\"User {user.id} has registered.\")\n    async def on_after_forgot_password(\n        self, user: User, token: str, request: Optional[Request] = None\n    ):\n        print(f\"User {user.id} has forgot their password. Reset token: {token}\")\n    async def on_after_request_verify(",
+        "detail": "alchemy-api.app.users",
         "documentation": {}
     },
     {
-        "label": "changepassword",
-        "kind": 6,
-        "importPath": "alchemy-api.app.schemas",
-        "description": "alchemy-api.app.schemas",
-        "peekOfCode": "class changepassword(BaseModel):\n    email:str\n    old_password:str\n    new_password:str\nclass TokenCreate(BaseModel):\n    user_id:str\n    access_token:str\n    refresh_token:str\n    status:bool\n    created_date:datetime.datetime",
-        "detail": "alchemy-api.app.schemas",
-        "documentation": {}
-    },
-    {
-        "label": "TokenCreate",
-        "kind": 6,
-        "importPath": "alchemy-api.app.schemas",
-        "description": "alchemy-api.app.schemas",
-        "peekOfCode": "class TokenCreate(BaseModel):\n    user_id:str\n    access_token:str\n    refresh_token:str\n    status:bool\n    created_date:datetime.datetime",
-        "detail": "alchemy-api.app.schemas",
-        "documentation": {}
-    },
-    {
-        "label": "get_hashed_password",
+        "label": "get_jwt_strategy",
         "kind": 2,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "def get_hashed_password(password: str) -> str:\n    return password_context.hash(password)\ndef verify_password(password: str, hashed_pass: str) -> bool:\n    return password_context.verify(password, hashed_pass)\ndef create_access_token(subject: Union[str, Any], expires_delta: int = None) -> str:\n    if expires_delta is not None:\n        expires_delta = datetime.utcnow() + expires_delta\n    else:\n        expires_delta = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode = {\"exp\": expires_delta, \"sub\": str(subject)}",
-        "detail": "alchemy-api.app.utils",
+        "importPath": "alchemy-api.app.users",
+        "description": "alchemy-api.app.users",
+        "peekOfCode": "def get_jwt_strategy() -> JWTStrategy:\n    return JWTStrategy(secret=SECRET, lifetime_seconds=3600)\nauth_backend = AuthenticationBackend(\n    name=\"jwt\",\n    transport=bearer_transport,\n    get_strategy=get_jwt_strategy,\n)\nfastapi_users = FastAPIUsers[User, uuid.UUID](get_user_manager, [auth_backend])\ncurrent_active_user = fastapi_users.current_user(active=True)",
+        "detail": "alchemy-api.app.users",
         "documentation": {}
     },
     {
-        "label": "verify_password",
-        "kind": 2,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "def verify_password(password: str, hashed_pass: str) -> bool:\n    return password_context.verify(password, hashed_pass)\ndef create_access_token(subject: Union[str, Any], expires_delta: int = None) -> str:\n    if expires_delta is not None:\n        expires_delta = datetime.utcnow() + expires_delta\n    else:\n        expires_delta = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode = {\"exp\": expires_delta, \"sub\": str(subject)}\n    encoded_jwt = jwt.encode(to_encode, JWT_SECRET_KEY, ALGORITHM)\n    return encoded_jwt",
-        "detail": "alchemy-api.app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "create_access_token",
-        "kind": 2,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "def create_access_token(subject: Union[str, Any], expires_delta: int = None) -> str:\n    if expires_delta is not None:\n        expires_delta = datetime.utcnow() + expires_delta\n    else:\n        expires_delta = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode = {\"exp\": expires_delta, \"sub\": str(subject)}\n    encoded_jwt = jwt.encode(to_encode, JWT_SECRET_KEY, ALGORITHM)\n    return encoded_jwt\ndef create_refresh_token(subject: Union[str, Any], expires_delta: int = None) -> str:\n    if expires_delta is not None:",
-        "detail": "alchemy-api.app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "create_refresh_token",
-        "kind": 2,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "def create_refresh_token(subject: Union[str, Any], expires_delta: int = None) -> str:\n    if expires_delta is not None:\n        expires_delta = datetime.utcnow() + expires_delta\n    else:\n        expires_delta = datetime.utcnow() + timedelta(minutes=REFRESH_TOKEN_EXPIRE_MINUTES)\n    to_encode = {\"exp\": expires_delta, \"sub\": str(subject)}\n    encoded_jwt = jwt.encode(to_encode, JWT_REFRESH_SECRET_KEY, ALGORITHM)\n    return encoded_jwt\ndef token_required(func):\n    @wraps(func)",
-        "detail": "alchemy-api.app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "token_required",
-        "kind": 2,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "def token_required(func):\n    @wraps(func)\n    def wrapper(*args, **kwargs):\n        payload = jwt.decode(kwargs['dependencies'], JWT_SECRET_KEY, ALGORITHM)\n        user_id = payload['sub']\n        data= kwargs['session'].query(TokenTable).filter_by(user_id=user_id,access_toke=kwargs['dependencies'],status=True).first()\n        if data:\n            return func(kwargs['dependencies'],kwargs['session'])\n        else:\n            return {'msg': \"Token blocked\"}",
-        "detail": "alchemy-api.app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "label": "SECRET",
         "kind": 5,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30  # 30 minutes\nREFRESH_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7 # 7 days\nALGORITHM = \"HS256\"\nJWT_SECRET_KEY = \"narscbjim@$@&^@&%^&RFghgjvbdsha\"   # should be kept secret\nJWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\npassword_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef get_hashed_password(password: str) -> str:\n    return password_context.hash(password)\ndef verify_password(password: str, hashed_pass: str) -> bool:\n    return password_context.verify(password, hashed_pass)",
-        "detail": "alchemy-api.app.utils",
+        "importPath": "alchemy-api.app.users",
+        "description": "alchemy-api.app.users",
+        "peekOfCode": "SECRET = \"SECRET\"\nclass UserManager(UUIDIDMixin, BaseUserManager[User, uuid.UUID]):\n    reset_password_token_secret = SECRET\n    verification_token_secret = SECRET\n    async def on_after_register(self, user: User, request: Optional[Request] = None):\n        print(f\"User {user.id} has registered.\")\n    async def on_after_forgot_password(\n        self, user: User, token: str, request: Optional[Request] = None\n    ):\n        print(f\"User {user.id} has forgot their password. Reset token: {token}\")",
+        "detail": "alchemy-api.app.users",
         "documentation": {}
     },
     {
-        "label": "REFRESH_TOKEN_EXPIRE_MINUTES",
+        "label": "bearer_transport",
         "kind": 5,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "REFRESH_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7 # 7 days\nALGORITHM = \"HS256\"\nJWT_SECRET_KEY = \"narscbjim@$@&^@&%^&RFghgjvbdsha\"   # should be kept secret\nJWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\npassword_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef get_hashed_password(password: str) -> str:\n    return password_context.hash(password)\ndef verify_password(password: str, hashed_pass: str) -> bool:\n    return password_context.verify(password, hashed_pass)\ndef create_access_token(subject: Union[str, Any], expires_delta: int = None) -> str:",
-        "detail": "alchemy-api.app.utils",
+        "importPath": "alchemy-api.app.users",
+        "description": "alchemy-api.app.users",
+        "peekOfCode": "bearer_transport = BearerTransport(tokenUrl=\"auth/jwt/login\")\ndef get_jwt_strategy() -> JWTStrategy:\n    return JWTStrategy(secret=SECRET, lifetime_seconds=3600)\nauth_backend = AuthenticationBackend(\n    name=\"jwt\",\n    transport=bearer_transport,\n    get_strategy=get_jwt_strategy,\n)\nfastapi_users = FastAPIUsers[User, uuid.UUID](get_user_manager, [auth_backend])\ncurrent_active_user = fastapi_users.current_user(active=True)",
+        "detail": "alchemy-api.app.users",
         "documentation": {}
     },
     {
-        "label": "ALGORITHM",
+        "label": "auth_backend",
         "kind": 5,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "ALGORITHM = \"HS256\"\nJWT_SECRET_KEY = \"narscbjim@$@&^@&%^&RFghgjvbdsha\"   # should be kept secret\nJWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\npassword_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef get_hashed_password(password: str) -> str:\n    return password_context.hash(password)\ndef verify_password(password: str, hashed_pass: str) -> bool:\n    return password_context.verify(password, hashed_pass)\ndef create_access_token(subject: Union[str, Any], expires_delta: int = None) -> str:\n    if expires_delta is not None:",
-        "detail": "alchemy-api.app.utils",
+        "importPath": "alchemy-api.app.users",
+        "description": "alchemy-api.app.users",
+        "peekOfCode": "auth_backend = AuthenticationBackend(\n    name=\"jwt\",\n    transport=bearer_transport,\n    get_strategy=get_jwt_strategy,\n)\nfastapi_users = FastAPIUsers[User, uuid.UUID](get_user_manager, [auth_backend])\ncurrent_active_user = fastapi_users.current_user(active=True)",
+        "detail": "alchemy-api.app.users",
         "documentation": {}
     },
     {
-        "label": "JWT_SECRET_KEY",
+        "label": "fastapi_users",
         "kind": 5,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "JWT_SECRET_KEY = \"narscbjim@$@&^@&%^&RFghgjvbdsha\"   # should be kept secret\nJWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\npassword_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef get_hashed_password(password: str) -> str:\n    return password_context.hash(password)\ndef verify_password(password: str, hashed_pass: str) -> bool:\n    return password_context.verify(password, hashed_pass)\ndef create_access_token(subject: Union[str, Any], expires_delta: int = None) -> str:\n    if expires_delta is not None:\n        expires_delta = datetime.utcnow() + expires_delta",
-        "detail": "alchemy-api.app.utils",
+        "importPath": "alchemy-api.app.users",
+        "description": "alchemy-api.app.users",
+        "peekOfCode": "fastapi_users = FastAPIUsers[User, uuid.UUID](get_user_manager, [auth_backend])\ncurrent_active_user = fastapi_users.current_user(active=True)",
+        "detail": "alchemy-api.app.users",
         "documentation": {}
     },
     {
-        "label": "JWT_REFRESH_SECRET_KEY",
+        "label": "current_active_user",
         "kind": 5,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "JWT_REFRESH_SECRET_KEY = \"13ugfdfgh@#$%^@&jkl45678902\"\npassword_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef get_hashed_password(password: str) -> str:\n    return password_context.hash(password)\ndef verify_password(password: str, hashed_pass: str) -> bool:\n    return password_context.verify(password, hashed_pass)\ndef create_access_token(subject: Union[str, Any], expires_delta: int = None) -> str:\n    if expires_delta is not None:\n        expires_delta = datetime.utcnow() + expires_delta\n    else:",
-        "detail": "alchemy-api.app.utils",
-        "documentation": {}
-    },
-    {
-        "label": "password_context",
-        "kind": 5,
-        "importPath": "alchemy-api.app.utils",
-        "description": "alchemy-api.app.utils",
-        "peekOfCode": "password_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef get_hashed_password(password: str) -> str:\n    return password_context.hash(password)\ndef verify_password(password: str, hashed_pass: str) -> bool:\n    return password_context.verify(password, hashed_pass)\ndef create_access_token(subject: Union[str, Any], expires_delta: int = None) -> str:\n    if expires_delta is not None:\n        expires_delta = datetime.utcnow() + expires_delta\n    else:\n        expires_delta = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)",
-        "detail": "alchemy-api.app.utils",
+        "importPath": "alchemy-api.app.users",
+        "description": "alchemy-api.app.users",
+        "peekOfCode": "current_active_user = fastapi_users.current_user(active=True)",
+        "detail": "alchemy-api.app.users",
         "documentation": {}
     }
 ]
