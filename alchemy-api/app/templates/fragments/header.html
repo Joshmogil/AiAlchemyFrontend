@@ -2,4 +2,29 @@
     <div class="uk-navbar-center">
         <a href="" class="uk-navbar-item uk-logo">FastAPI - Jinja - HTMX</a>
     </div>
+    <div class="uk-navbar-right">
+        <button id="authButton" class="uk-button uk-button-default"></button>
+    </div>
 </div>
+
+{% block javascript %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var token = localStorage.getItem('token');
+        var authButton = document.getElementById('authButton');
+
+        if (token) {
+            authButton.textContent = 'Logout';
+            authButton.addEventListener('click', function() {
+                localStorage.removeItem('token');
+                window.location.href = "/";
+            });
+        } else {
+            authButton.textContent = 'Login';
+            authButton.addEventListener('click', function() {
+                window.location.href = "/login";
+            });
+        }
+    });
+</script>
+{% endblock %}

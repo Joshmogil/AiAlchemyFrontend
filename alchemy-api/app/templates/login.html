@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-margin-top">
+    <form id="loginForm" class="uk-form-horizontal">
+        <div class="uk-margin uk-inline uk-width-1-1" uk-margin>
+            <span class="uk-form-icon" uk-icon="icon: user"></span>
+            <input id="usernameInput" autocomplete="off" class="uk-input" type="text" name="username"
+                placeholder="Username">
+        </div>
+        <div class="uk-margin uk-inline uk-width-1-1" uk-margin>
+            <span class="uk-form-icon" uk-icon="icon: lock"></span>
+            <input id="passwordInput" autocomplete="off" class="uk-input" type="password" name="password"
+                placeholder="Password">
+        </div>
+        <div class="uk-margin uk-inline uk-width-1-1" uk-margin>
+            <button type="submit" class="uk-button uk-button-primary">Login</button>
+        </div>
+        <div id="errorMessage" class="uk-alert-danger" uk-alert style="display: none;">
+            <a class="uk-alert-close" uk-close></a>
+            <p>Incorrect username or password.</p>
+        </div>
+    </form>
+</div>
+{% endblock %}
+
+{% block javascript %}
+<script>
+    document.getElementById('loginForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var username = document.getElementById('usernameInput').value;
+        var password = document.getElementById('passwordInput').value;
+
+        var formData = new URLSearchParams();
+        formData.append('username', username);
+        formData.append('password', password);
+
+        fetch('/auth/jwt/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: formData,
+        })
+            .then(function (response) {
+                if (response.status === 200) {
+                    return response.json();
+                } else {
+                    throw new Error('Login failed');
+                }
+            })
+            .then(function (data) {
+                localStorage.setItem('token', data.access_token);
+                window.location.href = "/";
+            })
+            .catch(function (error) {
+                document.getElementById('errorMessage').style.display = 'block';
+            });
+
+        document.getElementById("usernameInput").value = "";
+        document.getElementById("passwordInput").value = "";
+    });
+</script>
+{% endblock %}

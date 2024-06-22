@@ -1,77 +1,5 @@
 [
     {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
-        "documentation": {}
-    },
-    {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "DeclarativeBase",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "AsyncGenerator",
         "importPath": "typing",
         "description": "typing",
@@ -208,6 +136,54 @@
         "documentation": {}
     },
     {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "uuid",
         "kind": 6,
         "isExtraImport": true,
@@ -241,35 +217,52 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "fastapi_users",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "app.database",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "detail": "fastapi_users",
         "documentation": {}
     },
     {
-        "label": "SessionLocal",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "schemas",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "fastapi_users",
         "documentation": {}
     },
     {
-        "label": "engine",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "BaseUserManager",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "fastapi_users",
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "FastAPIUsers",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "UUIDIDMixin",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "get_async_session",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
         "documentation": {}
     },
     {
@@ -282,6 +275,46 @@
     },
     {
         "label": "create_db_and_tables",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "create_todo",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_todo",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "update_todo",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_todos",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "delete_todo",
         "importPath": "app.db",
         "description": "app.db",
         "isExtraImport": true,
@@ -353,78 +386,6 @@
         "documentation": {}
     },
     {
-        "label": "create_todo",
-        "importPath": "app.models",
-        "description": "app.models",
-        "isExtraImport": true,
-        "detail": "app.models",
-        "documentation": {}
-    },
-    {
-        "label": "delete_todo",
-        "importPath": "app.models",
-        "description": "app.models",
-        "isExtraImport": true,
-        "detail": "app.models",
-        "documentation": {}
-    },
-    {
-        "label": "get_todo",
-        "importPath": "app.models",
-        "description": "app.models",
-        "isExtraImport": true,
-        "detail": "app.models",
-        "documentation": {}
-    },
-    {
-        "label": "get_todos",
-        "importPath": "app.models",
-        "description": "app.models",
-        "isExtraImport": true,
-        "detail": "app.models",
-        "documentation": {}
-    },
-    {
-        "label": "update_todo",
-        "importPath": "app.models",
-        "description": "app.models",
-        "isExtraImport": true,
-        "detail": "app.models",
-        "documentation": {}
-    },
-    {
-        "label": "schemas",
-        "importPath": "fastapi_users",
-        "description": "fastapi_users",
-        "isExtraImport": true,
-        "detail": "fastapi_users",
-        "documentation": {}
-    },
-    {
-        "label": "BaseUserManager",
-        "importPath": "fastapi_users",
-        "description": "fastapi_users",
-        "isExtraImport": true,
-        "detail": "fastapi_users",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPIUsers",
-        "importPath": "fastapi_users",
-        "description": "fastapi_users",
-        "isExtraImport": true,
-        "detail": "fastapi_users",
-        "documentation": {}
-    },
-    {
-        "label": "UUIDIDMixin",
-        "importPath": "fastapi_users",
-        "description": "fastapi_users",
-        "isExtraImport": true,
-        "detail": "fastapi_users",
-        "documentation": {}
-    },
-    {
         "label": "AuthenticationBackend",
         "importPath": "fastapi_users.authentication",
         "description": "fastapi_users.authentication",
@@ -449,47 +410,11 @@
         "documentation": {}
     },
     {
-        "label": "SQLALCHEMY_DATABASE_URL",
-        "kind": 5,
-        "importPath": "alchemy-api.app.database",
-        "description": "alchemy-api.app.database",
-        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./sql_app.db\"\nengine = create_engine(\n    SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
-        "detail": "alchemy-api.app.database",
-        "documentation": {}
-    },
-    {
-        "label": "engine",
-        "kind": 5,
-        "importPath": "alchemy-api.app.database",
-        "description": "alchemy-api.app.database",
-        "peekOfCode": "engine = create_engine(\n    SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
-        "detail": "alchemy-api.app.database",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "kind": 5,
-        "importPath": "alchemy-api.app.database",
-        "description": "alchemy-api.app.database",
-        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
-        "detail": "alchemy-api.app.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "kind": 5,
-        "importPath": "alchemy-api.app.database",
-        "description": "alchemy-api.app.database",
-        "peekOfCode": "Base = declarative_base()",
-        "detail": "alchemy-api.app.database",
-        "documentation": {}
-    },
-    {
         "label": "Base",
         "kind": 6,
         "importPath": "alchemy-api.app.db",
         "description": "alchemy-api.app.db",
-        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass User(SQLAlchemyBaseUserTableUUID, Base):\n    pass\nengine = create_async_engine(DATABASE_URL)\nasync_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_async_session() -> AsyncGenerator[AsyncSession, None]:",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass User(SQLAlchemyBaseUserTableUUID, Base):\n    pass\nclass ToDo(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    content = Column(String)\n    session_key = Column(String)\nengine = create_async_engine(DATABASE_URL)",
         "detail": "alchemy-api.app.db",
         "documentation": {}
     },
@@ -498,7 +423,16 @@
         "kind": 6,
         "importPath": "alchemy-api.app.db",
         "description": "alchemy-api.app.db",
-        "peekOfCode": "class User(SQLAlchemyBaseUserTableUUID, Base):\n    pass\nengine = create_async_engine(DATABASE_URL)\nasync_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_async_session() -> AsyncGenerator[AsyncSession, None]:\n    async with async_session_maker() as session:\n        yield session",
+        "peekOfCode": "class User(SQLAlchemyBaseUserTableUUID, Base):\n    pass\nclass ToDo(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    content = Column(String)\n    session_key = Column(String)\nengine = create_async_engine(DATABASE_URL)\nasync_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():",
+        "detail": "alchemy-api.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "ToDo",
+        "kind": 6,
+        "importPath": "alchemy-api.app.db",
+        "description": "alchemy-api.app.db",
+        "peekOfCode": "class ToDo(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    content = Column(String)\n    session_key = Column(String)\nengine = create_async_engine(DATABASE_URL)\nasync_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)",
         "detail": "alchemy-api.app.db",
         "documentation": {}
     },
@@ -507,7 +441,7 @@
         "kind": 5,
         "importPath": "alchemy-api.app.db",
         "description": "alchemy-api.app.db",
-        "peekOfCode": "DATABASE_URL = \"sqlite+aiosqlite:///./test.db\"\nclass Base(DeclarativeBase):\n    pass\nclass User(SQLAlchemyBaseUserTableUUID, Base):\n    pass\nengine = create_async_engine(DATABASE_URL)\nasync_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)",
+        "peekOfCode": "DATABASE_URL = \"sqlite+aiosqlite:///./test.db\"\nclass Base(DeclarativeBase):\n    pass\nclass User(SQLAlchemyBaseUserTableUUID, Base):\n    pass\nclass ToDo(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    content = Column(String)\n    session_key = Column(String)",
         "detail": "alchemy-api.app.db",
         "documentation": {}
     },
@@ -525,62 +459,8 @@
         "kind": 5,
         "importPath": "alchemy-api.app.db",
         "description": "alchemy-api.app.db",
-        "peekOfCode": "async_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_async_session() -> AsyncGenerator[AsyncSession, None]:\n    async with async_session_maker() as session:\n        yield session\nasync def get_user_db(session: AsyncSession = Depends(get_async_session)):\n    yield SQLAlchemyUserDatabase(session, User)",
+        "peekOfCode": "async_session_maker = async_sessionmaker(engine, expire_on_commit=False)\nasync def create_db_and_tables():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_async_session() -> AsyncGenerator[AsyncSession, None]:\n    async with async_session_maker() as session:\n        yield session\nasync def get_user_db(session: AsyncSession = Depends(get_async_session)):\n    yield SQLAlchemyUserDatabase(session, User)\nasync def create_todo(content: str, session_key: str, session: AsyncSession = Depends(get_async_session)):",
         "detail": "alchemy-api.app.db",
-        "documentation": {}
-    },
-    {
-        "label": "get_db",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.get(\"/\", response_class=HTMLResponse)\ndef home(request: Request, db: Session = Depends(get_db)):\n    session_key = request.cookies.get(\"session_key\", uuid.uuid4().hex)\n    todos = get_todos(db, session_key)",
-        "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "home",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def home(request: Request, db: Session = Depends(get_db)):\n    session_key = request.cookies.get(\"session_key\", uuid.uuid4().hex)\n    todos = get_todos(db, session_key)\n    context = {\n        \"request\": request,\n        \"todos\": todos,\n        \"title\": \"Home\"\n    }\n    response = templates.TemplateResponse(\"home.html\", context)\n    response.set_cookie(key=\"session_key\", value=session_key, expires=259200)  # 3 days",
-        "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "post_add",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def post_add(request: Request, content: str = Form(...), db: Session = Depends(get_db)):\n    session_key = request.cookies.get(\"session_key\")\n    todo = create_todo(db, content=content, session_key=session_key)\n    context = {\"request\": request, \"todo\": todo}\n    return templates.TemplateResponse(\"todo/item.html\", context)\n@app.get(\"/edit/{item_id}\", response_class=HTMLResponse)\ndef get_edit(request: Request, item_id: int, db: Session = Depends(get_db)):\n    todo = get_todo(db, item_id)\n    context = {\"request\": request, \"todo\": todo}\n    return templates.TemplateResponse(\"todo/form.html\", context)",
-        "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "get_edit",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def get_edit(request: Request, item_id: int, db: Session = Depends(get_db)):\n    todo = get_todo(db, item_id)\n    context = {\"request\": request, \"todo\": todo}\n    return templates.TemplateResponse(\"todo/form.html\", context)\n@app.put(\"/edit/{item_id}\", response_class=HTMLResponse)\ndef put_edit(request: Request, item_id: int, content: str = Form(...), db: Session = Depends(get_db)):\n    todo = update_todo(db, item_id, content)\n    context = {\"request\": request, \"todo\": todo}\n    return templates.TemplateResponse(\"todo/item.html\", context)\n@app.delete(\"/delete/{item_id}\", response_class=Response)",
-        "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "put_edit",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def put_edit(request: Request, item_id: int, content: str = Form(...), db: Session = Depends(get_db)):\n    todo = update_todo(db, item_id, content)\n    context = {\"request\": request, \"todo\": todo}\n    return templates.TemplateResponse(\"todo/item.html\", context)\n@app.delete(\"/delete/{item_id}\", response_class=Response)\ndef delete(item_id: int, db: Session = Depends(get_db)):\n    delete_todo(db, item_id)\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"app.app:app\", host=\"0.0.0.0\", log_level=\"info\")",
-        "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "delete",
-        "kind": 2,
-        "importPath": "alchemy-api.app.main",
-        "description": "alchemy-api.app.main",
-        "peekOfCode": "def delete(item_id: int, db: Session = Depends(get_db)):\n    delete_todo(db, item_id)\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"app.app:app\", host=\"0.0.0.0\", log_level=\"info\")",
-        "detail": "alchemy-api.app.main",
         "documentation": {}
     },
     {
@@ -599,60 +479,6 @@
         "description": "alchemy-api.app.main",
         "peekOfCode": "templates = Jinja2Templates(directory=\"templates\")\napp.include_router(\n    fastapi_users.get_auth_router(auth_backend), prefix=\"/auth/jwt\", tags=[\"auth\"]\n)\napp.include_router(\n    fastapi_users.get_register_router(UserRead, UserCreate),\n    prefix=\"/auth\",\n    tags=[\"auth\"],\n)\napp.include_router(",
         "detail": "alchemy-api.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "ToDo",
-        "kind": 6,
-        "importPath": "alchemy-api.app.models",
-        "description": "alchemy-api.app.models",
-        "peekOfCode": "class ToDo(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    content = Column(String)\n    session_key = Column(String)\ndef create_todo(db: Session, content: str, session_key: str):\n    todo = ToDo(content=content, session_key=session_key)\n    db.add(todo)\n    db.commit()\n    db.refresh(todo)",
-        "detail": "alchemy-api.app.models",
-        "documentation": {}
-    },
-    {
-        "label": "create_todo",
-        "kind": 2,
-        "importPath": "alchemy-api.app.models",
-        "description": "alchemy-api.app.models",
-        "peekOfCode": "def create_todo(db: Session, content: str, session_key: str):\n    todo = ToDo(content=content, session_key=session_key)\n    db.add(todo)\n    db.commit()\n    db.refresh(todo)\n    return todo\ndef get_todo(db: Session, item_id: int):\n    return db.query(ToDo).filter(ToDo.id == item_id).first()\ndef update_todo(db: Session, item_id: int, content: str):\n    todo = get_todo(db, item_id)",
-        "detail": "alchemy-api.app.models",
-        "documentation": {}
-    },
-    {
-        "label": "get_todo",
-        "kind": 2,
-        "importPath": "alchemy-api.app.models",
-        "description": "alchemy-api.app.models",
-        "peekOfCode": "def get_todo(db: Session, item_id: int):\n    return db.query(ToDo).filter(ToDo.id == item_id).first()\ndef update_todo(db: Session, item_id: int, content: str):\n    todo = get_todo(db, item_id)\n    todo.content = content\n    db.commit()\n    db.refresh(todo)\n    return todo\ndef get_todos(db: Session, session_key: str, skip: int = 0, limit: int = 100):\n    return db.query(ToDo).filter(ToDo.session_key == session_key).offset(skip).limit(limit).all()",
-        "detail": "alchemy-api.app.models",
-        "documentation": {}
-    },
-    {
-        "label": "update_todo",
-        "kind": 2,
-        "importPath": "alchemy-api.app.models",
-        "description": "alchemy-api.app.models",
-        "peekOfCode": "def update_todo(db: Session, item_id: int, content: str):\n    todo = get_todo(db, item_id)\n    todo.content = content\n    db.commit()\n    db.refresh(todo)\n    return todo\ndef get_todos(db: Session, session_key: str, skip: int = 0, limit: int = 100):\n    return db.query(ToDo).filter(ToDo.session_key == session_key).offset(skip).limit(limit).all()\ndef delete_todo(db: Session, item_id: int):\n    todo = get_todo(db, item_id)",
-        "detail": "alchemy-api.app.models",
-        "documentation": {}
-    },
-    {
-        "label": "get_todos",
-        "kind": 2,
-        "importPath": "alchemy-api.app.models",
-        "description": "alchemy-api.app.models",
-        "peekOfCode": "def get_todos(db: Session, session_key: str, skip: int = 0, limit: int = 100):\n    return db.query(ToDo).filter(ToDo.session_key == session_key).offset(skip).limit(limit).all()\ndef delete_todo(db: Session, item_id: int):\n    todo = get_todo(db, item_id)\n    db.delete(todo)\n    db.commit()",
-        "detail": "alchemy-api.app.models",
-        "documentation": {}
-    },
-    {
-        "label": "delete_todo",
-        "kind": 2,
-        "importPath": "alchemy-api.app.models",
-        "description": "alchemy-api.app.models",
-        "peekOfCode": "def delete_todo(db: Session, item_id: int):\n    todo = get_todo(db, item_id)\n    db.delete(todo)\n    db.commit()",
-        "detail": "alchemy-api.app.models",
         "documentation": {}
     },
     {

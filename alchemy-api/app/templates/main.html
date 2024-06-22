@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+  <section id="get-started">
+    <h2>Get Started</h2>
+    <p>This is the get started section. Here you can provide information on how to get started with your application.</p>
+  </section>
+
+  <section id="objectives">
+    <h2>Objectives</h2>
+    <p>This is the objectives section. Here you can outline the objectives of your application.</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>This is the about section. Here you can provide information about your application and its purpose.</p>
+  </section>
+</div>
+{% endblock %}
+
+{% block style %}
+<style>
+  li.htmx-swapping {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  section {
+    margin-bottom: 2em;
+  }
+</style>
+{% endblock %}
